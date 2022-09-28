@@ -3,5 +3,5 @@
 @section('title' , 'lista film')
 
 @section('content')
-<h1>benvenuto</h1>
+<h1>Lista Film:</h1>
 @endsection

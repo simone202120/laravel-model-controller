@@ -8,7 +8,8 @@ class PageController extends Controller
 {
     public function index(){
        $films = Movie::all();
-       var_dump($films);
-       die();
+       foreach ($films as $film){
+        echo $film->title . '<br>';
+       }
     }
 }

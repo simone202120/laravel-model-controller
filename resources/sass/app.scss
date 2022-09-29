@@ -2,9 +2,13 @@
     display: flex;
     width: 80%;
     flex-wrap: wrap;
+    margin:auto;
+    
+  
 }
 
 .filmCard{
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     padding: 20px;
+    
 }

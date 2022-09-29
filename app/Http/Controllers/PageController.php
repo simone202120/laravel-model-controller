@@ -8,8 +8,9 @@ class PageController extends Controller
 {
     public function index(){
        $films = Movie::all();
-       foreach ($films as $film){
-        echo $film->title . '<br>';
-       }
+       return view('ListaFilm',
+       [
+        'films'=>$films,
+       ]);
     }
 }

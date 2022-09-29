@@ -1,4 +1,10 @@
+.container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
 
-h1{
-    color: white;
+.filmCard{
+    width: calc(100% / 3);
+    padding: 20px;
 }
